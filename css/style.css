@@ -4,16 +4,19 @@
     box-sizing: border-box;
 }
 
+section{
+    padding: 40px;
+}
+
+.container{
+    width: 1000px;
+}
 
 /* header  */
 
 header{
     background-color: aqua;
     padding: 10px;
-}
-
-.container{
-    width: 1000px;
 }
 
 .container.head{
@@ -31,14 +34,12 @@ header{
 .link{
     flex-grow: 3;
     border: 1px solid black;
-
 }
 
 /* hero  */
 
 .section.hero{
     background-color: blue;
-    padding: 40px;
 }
 
 .box-hero{
@@ -46,4 +47,23 @@ header{
     height: 400px;
     background-color: rgb(233, 112, 223);
     margin: auto;
+}
+
+/* section one  */
+.container.one{
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+.blu{
+    height: 500px;
+    background-color: rgb(35, 112, 226);
+    flex-grow: 2;
+}
+
+.pink{
+    height: 500px;
+    background-color: rgb(235, 145, 172);
+    flex-grow: 1;
 }
