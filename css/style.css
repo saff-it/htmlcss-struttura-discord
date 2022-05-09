@@ -10,6 +10,9 @@ section{
 
 .container{
     width: 1000px;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
 }
 
 /* header  */
@@ -50,12 +53,6 @@ header{
 }
 
 /* section one  */
-.container.one{
-    margin: auto;
-    display: flex;
-    border: 1px solid black;
-}
-
 .blu{
     height: 500px;
     background-color: rgb(35, 112, 226);
@@ -66,4 +63,13 @@ header{
     height: 500px;
     background-color: rgb(235, 145, 172);
     flex-grow: 1;
+}
+
+/* section two  */
+section.two{
+    background-color: rgb(202, 202, 202);
+}
+
+.container.two{
+    flex-direction: row-reverse;
 }
