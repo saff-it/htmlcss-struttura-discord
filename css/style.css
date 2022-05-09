@@ -106,3 +106,15 @@ section.two{
     border: 1px solid black;
     width: calc(100% / 4);
 }
+
+/* footer  */
+footer{
+    background-color: rgb(51, 47, 47);
+    padding: 15px 0 0 0;
+    border-top: 2px solid gray;
+}
+
+.container.footer{
+    height: 50px;
+    background-color: aquamarine;
+}
