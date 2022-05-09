@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* header  */
+
+header{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.container{
+    width: 1000px;
+}
+
+.container.head{
+    height: 50px;
+    background-color: orange;
+    margin: auto;
+    display: flex;
+}
+
+.logo, .login{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.link{
+    flex-grow: 3;
+    border: 1px solid black;
+
+}
