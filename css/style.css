@@ -83,3 +83,26 @@ section.two{
     height: 700px;
     background-color: green;
 }
+
+/* section five  */
+.section.five{
+    background-color: rgb(51, 47, 47);
+}
+
+.lft-box{
+    height: 500px;
+    background-color: rgb(214, 107, 139);
+    flex-grow: 1;
+}
+
+.rght-box{
+    height: 500px;
+    background-color: aqua;
+    flex-grow: 2;
+    display: flex;
+}
+
+.inside-rght{
+    border: 1px solid black;
+    width: calc(100% / 4);
+}
