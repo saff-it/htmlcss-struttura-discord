@@ -117,4 +117,21 @@ footer{
 .container.footer{
     height: 50px;
     background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-btm{
+    height: 45%;
+    background-color: rgb(214, 107, 139);
+    font-size: 12px;
+    padding: 4px;
+    
+}
+
+button{
+    height: 45%;
+    background-color: rgb(214, 107, 139);
+    font-size: 12px;
+    padding: 4px;
 }
