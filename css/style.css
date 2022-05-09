@@ -27,17 +27,42 @@ header{
     background-color: orange;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo, .login{
+    display: flex;
     flex-grow: 1;
     border: 1px solid black;
+    align-items: center;
+}
+
+.login{
+    justify-content: end;
 }
 
 .link{
     flex-grow: 3;
     border: 1px solid black;
 }
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
 
 /* hero  */
 
@@ -121,7 +146,7 @@ footer{
     align-items: center;
 }
 
-.logo-btm{
+.logo-btn-btm{
     height: 45%;
     background-color: rgb(214, 107, 139);
     font-size: 12px;
